@@ -1,0 +1,15 @@
+[package]
+name = "adios-multi-tenant-serving"
+version = "0.1.0"
+edition = "2021"
+description = "AdiOS multi-tenant-serving plugin"
+license = "MIT"
+repository = "https://github.com/tridentbiz/adios-multi-tenant-serving"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+tokio-test = "0.4"
